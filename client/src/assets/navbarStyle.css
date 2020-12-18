@@ -1,0 +1,39 @@
+.Navbar{
+    position: sticky;
+    top:0;
+}
+.search{
+    display: inline-flex;
+    margin-top: 7px;
+    margin-left: 10px;
+    background-color: #CCD3D9;
+    border-radius: 3px;
+    width:335px;
+    justify-content:space-between;
+  }
+  .search input{
+      width:300px;
+  }
+  .search input,button{
+    outline: none;
+    border:none;
+    background: transparent;
+    padding: 7px;
+    height:60%;
+  }
+.headers{
+    padding: 15px;
+}
+.contain {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  left: 19px;
+  top:3px;
+  transform: translate(-50%, -50%);
+  font-size: 2vmin;
+  color: black;
+  font-weight: 650;
+}

@@ -1,0 +1,146 @@
+.Cart{
+    width: 100%;
+    display: table;
+}
+.cart-mld{
+    width:60%;
+    box-sizing: border-box;
+    margin: 0% 1% 0.5px 3%;
+    padding: 0% 3%;
+    float: left;
+}
+.my-cart-div{
+    background-color: white;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1% 3%;
+}
+.my-cart{
+    font-size: 2vw;
+    font-weight: 400;
+}
+.cart-ldiv{
+    background-color: white;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px 2px 0px 0px;
+}
+.cart-img-div{
+    box-sizing: border-box;
+    width:35%;  
+    float: left;
+}
+.cart-img-div img{
+    width:80%;
+    border: none;
+}
+.cart-info-div{
+    width:60%;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 1%;
+}
+.cart-info-div span{
+    font-size: 1.5vw;
+    font-weight: 350;
+}
+
+.cart-info-div p{
+    font-size: 1vw;
+}
+
+.cart-mrd{
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0px 5% 0.5px 1%;
+    padding: 0 2%;
+    float: right;
+    background-color: white;
+}
+
+.cart-mk{
+    border:0.5px solid #C7C7C7;
+    height:2vw;
+    width: 2vw;
+    font-size: 1vw;
+    border-radius: 50%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cart-count{
+    border:0.5px solid #C7C7C7;
+    width:4vw;
+    height:2vw;
+    font-size: 1vw;
+    padding:0 ;
+}
+.cart-remove{
+    margin-top: 3%;
+    padding: 0px 0px;
+    font-size: 1vw;
+    height:2.3vw;
+    width:8.4vw;
+}
+
+.cart-price-details{
+    background-color: white;
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6.9px 1%;
+    margin-bottom: 0.5px;
+}
+.cart-price-details span{
+    font-size: 1.98vw;
+    font-weight: 400;
+}
+
+.cart-price{
+    display:table;
+    width: 100%;
+    padding-top: 2%;
+    
+}
+.cart-price span{
+    font-size: 1.3vw;
+    margin-bottom: 4%;
+}
+
+.cart-price div{
+    width:100%;
+    display: table;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+hr{
+    margin:0%;
+    background-color:black;
+}
+
+.net-total{
+    margin-top: 4%;
+}
+
+.buy-btn{
+    width: 100%;
+    padding: 0%;
+    height: 3vw;
+    font-size: 1.3vw;
+    margin-top:2%;
+    margin-bottom: 4%;
+}
+
+.cart-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+  }
