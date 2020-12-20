@@ -5,7 +5,7 @@ import Navbar from './views/navbar.js';
 import Home from './views/home.js';
 import Product from './views/product.js';
 import Cart from './views/cart.js';
-
+import Login from './views/Login.js';
 
 
 class App extends Component{
@@ -17,7 +17,7 @@ class App extends Component{
         <Route exact path='/' component={Home}/>
         <Route exact path='/productsInCart' component={Cart}/>
         <Route path='/products/:id'  component={Product}/>
-
+        <Route path='/login' component={Login} />
         </Switch>
       </div>
       </BrowserRouter>
