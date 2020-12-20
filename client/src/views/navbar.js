@@ -5,6 +5,7 @@ import Logo from '../assets/logo.png';
 import Cart from '../assets/cart.png';
 import SI from '../assets/searchIcon.png';
 import '../assets/navbarStyle.css';
+import Login from './Login';
 
 class Navbar extends Component{
     
@@ -34,7 +35,7 @@ class Navbar extends Component{
                     </div>
                     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav navbar-right navbar-light bg-light">
-                            <li><Link to={"/"}>LogIn/SignIn</Link></li>
+                            <li><Link to={"/login"}>LogIn/SignIn</Link></li>
                             <li><Link to={"/productsInCart"}>
                                     <div class="contain">
                                         <img src={ Cart } alt="Cinque Terre" width="35" height="25"/>
