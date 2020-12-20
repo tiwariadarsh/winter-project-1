@@ -7,7 +7,6 @@ import Product from './views/product.js';
 import Cart from './views/cart.js';
 import Login from './views/Login.js';
 import Register from './views/Register.js';
-import '..assest/Login-Register.css';
 
 
 
